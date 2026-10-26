@@ -47,8 +47,14 @@ management:
     health:
       show-details: always
 
+  otlp:
+    metrics:
+      export:
+        enabled: false
+
   tracing:
-    enabled: false
+    export:
+      enabled: false
 
 logging:
   level:

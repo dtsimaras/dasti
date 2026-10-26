@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:tasks-test
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: false
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+
+management:
+  otlp:
+    metrics:
+      export:
+        enabled: false
+
+  tracing:
+    export:
+      enabled: false
+
+logging:
+  level:
+    root: WARN
+    com.dasti.tasks: INFO
