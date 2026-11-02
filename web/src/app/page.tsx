@@ -15,6 +15,11 @@ export default function Home() {
         <div>
           Today
           <div>
+            add microservice for books/quotes and show daily a quote or smth
+            as a reminder on princiles, business, programming, one for each. or recipe etc
+            like my grandmas diary that had celebrations or pagkosmia imera of smth
+          </div>
+          <div>
             daily protein goals: 20/150g
             daily calorie goals: 2000c
           </div>
